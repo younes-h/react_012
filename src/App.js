@@ -4,6 +4,7 @@ import './App.css';
 import Greet from './components/Greet';
 import Welcom from './components/Welcom';
 import Message from './components/Message';
+import Counter from './components/Counter';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
      <Welcom name="ali"  skill="flutter" >
         <p> heyyyyy 3</p> 
      </Welcom> */}
-     <Message />
+     {/* <Message /> */}
+     <Counter />
     </div>
   );
 }
