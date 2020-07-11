@@ -1,24 +1,25 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Greet from './components/Greet';
+import Welcom from './components/Welcom';
+import Message from './components/Message';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {/* <Greet name="younes"  skill="reactjs" />
+     <Greet name="ali" skill="flutter" /> */}
+     {/* <Welcom name="ali"  skill="flutter" >
+         <p> heyyyyy 1</p>
+     </Welcom>
+     <Welcom name="ali"  skill="flutter" >
+        <p> heyyyyy 2</p>
+     </Welcom>
+     <Welcom name="ali"  skill="flutter" >
+        <p> heyyyyy 3</p> 
+     </Welcom> */}
+     <Message />
     </div>
   );
 }
