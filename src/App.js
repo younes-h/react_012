@@ -1,6 +1,10 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
+
+import Form01 from './components/Form01';
+
+// import StyleSht from './components/StyleSht';
 // import Greet from './components/Greet';
 // import Welcom from './components/Welcom';
 // import Message from './components/Message';
@@ -8,7 +12,7 @@ import './App.css';
 // import FunctionClick from './components/FunctionClick';
 // import ClassClick from './components/ClassClick';
 // import EventBind from './components/EventBind';
-import Parent from './components/Parent';
+// import Parent from './components/Parent';
 
 function App() {
   return (
@@ -28,7 +32,9 @@ function App() {
      {/* <Counter /> */}
      {/* <FunctionClick /> 
      <ClassClick></ClassClick> */}
-     <Parent></Parent>
+     {/* <Parent></Parent> */}
+     {/* <StyleSht></StyleSht> */}
+     <Form01/>
     </div>
   );
 }
