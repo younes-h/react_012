@@ -1,12 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Greet from './components/Greet';
-import Welcom from './components/Welcom';
-import Message from './components/Message';
-import Counter from './components/Counter';
-import FunctionClick from './components/FunctionClick';
-import ClassClick from './components/ClassClick';
+// import Greet from './components/Greet';
+// import Welcom from './components/Welcom';
+// import Message from './components/Message';
+// import Counter from './components/Counter';
+// import FunctionClick from './components/FunctionClick';
+// import ClassClick from './components/ClassClick';
+// import EventBind from './components/EventBind';
+import Parent from './components/Parent';
 
 function App() {
   return (
@@ -24,8 +26,9 @@ function App() {
      </Welcom> */}
      {/* <Message /> */}
      {/* <Counter /> */}
-     <FunctionClick /> 
-     <ClassClick></ClassClick>
+     {/* <FunctionClick /> 
+     <ClassClick></ClassClick> */}
+     <Parent></Parent>
     </div>
   );
 }
