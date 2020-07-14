@@ -1,9 +1,12 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-
-import Form01 from './components/Form01';
-
+import ComponentC from './components/ComponentC'
+import { UserProvider } from './components/UserContext';
+// import ClickCounter from './components/ClickCounter';
+// import HoverCounter from './components/HoverCounter';
+// import Refs from './components/Refs';
+// import Form01 from './components/Form01';
 // import StyleSht from './components/StyleSht';
 // import Greet from './components/Greet';
 // import Welcom from './components/Welcom';
@@ -13,6 +16,7 @@ import Form01 from './components/Form01';
 // import ClassClick from './components/ClassClick';
 // import EventBind from './components/EventBind';
 // import Parent from './components/Parent';
+// import LifecycleA from './components/LifecycleA';
 
 function App() {
   return (
@@ -34,7 +38,17 @@ function App() {
      <ClassClick></ClassClick> */}
      {/* <Parent></Parent> */}
      {/* <StyleSht></StyleSht> */}
-     <Form01/>
+     {/* <Form01/> */}
+     {/* <LifecycleA/> */}
+     {/* <Refs></Refs> */}
+     {/* <ClickCounter name="test"></ClickCounter>
+     <br></br>
+     <br></br>
+     <HoverCounter name="test" ></HoverCounter> */}
+     <UserProvider name="test">
+       <ComponentC/>
+     </UserProvider>
+
     </div>
   );
 }
